@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+#img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+}
+.tot{
+    width: 325px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.text{
+    margin-top: 5px;
+}
+
+.txt1{
+    font-family: 'Outfit', sans-serif; 
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    color: hsl(218, 44%, 22%);
+}
+.txt2{
+    font-family: 'Outfit', sans-serif; 
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+#flecha{
+    width: 20px;
+
+}
+
+button {
+    width: 50px; /* Tamaño del botón */
+    height: 50px;
+    border: none; /* Elimina el borde predeterminado */
+    background-color: transparent; /* Hace que el botón sea transparente */
+    align-items: center;
+    justify-content: center;
+    display: inline;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .previous{
+  transform: rotate(180deg);
+}
+.container .next{
+  margin-top: 6px;
+}
+
+  button:hover {
+    cursor: pointer; /* Muestra un cursor de mano para indicar que el botón es clicable */
+    
+}
+  
+  
+  #flecha {
+    width: 25px; /* Tamaño de la imagen */
+    height: 25px;
+  }
+  
+  
+
+  
+  .slide {
+    position: relative;
+  }
+
+
